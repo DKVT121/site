@@ -1,0 +1,172 @@
+* {
+  font-family: sans-serif;
+}
+
+.GoOut {
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.header_menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.header_word_menu {
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+}
+.header_word {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+.header_regsign {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header_sign {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #124C5F;
+  padding: 17px 45px;
+}
+.header_reg {
+  color: #124C5F;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #C7E7E1;
+  padding: 17px 35px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .taking-care {
+  position: relative;
+  display: flex;
+  width: 100%;
+  aspect-ratio: 1671/940;
+  flex-shrink: 0;
+  background-image: url(/assets/ydogs.svg);
+  background-size: cover;
+}
+.main .taking-care-explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: 20%;
+  left: 10%;
+  height: 41%;
+  aspect-ratio: 456/292;
+  flex-shrink: 0;
+}
+.main .taking-care-explore_txt1 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+.main .taking-care-explore_txt2 {
+  width: 64%;
+  color: #181817;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.9%; /* 26.201px */
+  letter-spacing: 0.95px;
+}
+.main .taking-care-explore_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #124C5F;
+  width: 40%;
+  aspect-ratio: 192/59;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main .services {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.main .services_category {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .services_span {
+  border: 2px #3A8DA8 solid;
+  width: 130px;
+}
+.main .services_blocks {
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.main .services_blocks-blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 180px;
+  width: 120px;
+  padding: 20px 30px;
+  border-radius: 25px;
+  border: 1px solid #98F2E1;
+}
+.main .services_blocks-yellow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 180px;
+  width: 120px;
+  padding: 20px 30px;
+  border-radius: 25px;
+  border: 1px solid #FFEE94;
+  background: linear-gradient(180deg, #FFFAE0 0%, rgba(255, 255, 255, 0) 100%);
+}
+.main .dogs-do-speak {
+  width: 1311.928px;
+  height: 757.732px;
+  background-image: url(/assets/dogsdospeak.svg);
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
